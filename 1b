@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Hyperlinks Demonstration</h1>
+    <p>Hyperlinks in HTML are created using <small>&lt;a&gt;</small> tag with the <small>href</small> attribute to specify the link destination . The <small>target</small> attribute determines how the link is opened </p>
+    <h2>Basic HyperLink</h2>
+    <p>vist the <a href="https://www.google.com">Google</a> website</p>
+    <h2>Open Link in a new Tab</h2>
+    <p>visit the <a href = "https://www.wikipedia.org">wikipedia</a> website</p>
+    <h2>Open link in Parent Frame</h2>
+    <p>If the page is inside a frame,visit <a href="https://www.google.com/search?q=+cat+photos&sca_esv=48cf0eca814055db&ei=CSZdZ4WJJYCenesPhuvD2Ak&ved=0ahUKEwjFsaCt0aaKAxUAT2cHHYb1EJsQ4dUDCA8&uact=5&oq=+cat+photos&gs_lp=Egxnd3Mtd2l6LXNlcnAiCyBjYXQgcGhvdG9zMgYQABgHGB4yDRAAGIAEGLEDGEMYigUyCBAAGAcYChgeMgoQABiABBhDGIoFMgYQABgHGB4yChAAGIAEGEMYigUyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHki_GFD7BljnEHABeACQAQCYAXegAeMEqgEDNC4yuAEDyAEA-AEBmAIGoAKgBMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAcICDhAAGIAEGJECGLEDGIoFwgIIEAAYgAQYsQOYAwCIBgGQBgu6BgQIARgIkgcDMi40oAeGIw&sclient=gws-wiz-serp">Example</a> in the parent frame</p>
+    <h2>Open Link in Full Window</h2>
+    <p>visit <a href="https://www.bbc.com">BBC news</a> to loadin full browser window</p>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Lists Demonstration</h1>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>B Tech</li>
+        <li>M Tech</li>
+        <li>Ph D</li>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>CSE</li>
+        <li>IT</li>
+        <li>ECE</li>
+    </ol>
+    <h2>Nesterd Lists</h2>
+    <ul>
+        <li>2 Year</li>
+        <ul>
+            <li>Section-A</li>
+            <li>Section-B</li>
+            <li>Section-C</li>
+        </ul>
+    </ul>
+    <ul>
+        <li>3 Year</li>
+        <ul>
+            <li>Section-A</li>
+            <li>Section-B</li>
+        </ul>
+    </ul>
+    <h2>Ordered List inside an Unordered List</h2>
+    <ul>
+        <li>Programming Languages</li>
+        <ol>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+        </ol>
+    </ul>
+    <ul>
+        <li>Databases</li>
+        <ol>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+        </ol>
+    </ul>
+    <h2>Definiton List</h2>
+    <dl>
+        <dt>HTML</dt>
+     <dd>     HyperText Markup Language - the standard markup language for creating the webpages</dd>
+     <dt>CSS</dt>
+     <dd>Cascading Style Sheets - used for styling the webpages</dd>
+     <dt>JavaScript</dt>
+     <dd >     A Programming language used to create dynamic and interative web content</dd>
+    </dl>
+   
+</body>
+</html>

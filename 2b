@@ -7,14 +7,33 @@
 
     <style>
         table,th,td{
-            border: 1px solid black;
+            border: 2px solid black;
             border-collapse: collapse;
             padding: 10px;
             text-align: center;
+            background-color: blanchedalmond;
         }
 
         .M,.Tu,.W,.Thu,.Fri{
             font-weight: 600;
+        }
+
+        h2{
+            text-align: end;
+            width: 100%;
+            /* background-color: burlywood; */
+            position: relative;
+            animation: slidebar 2s linear infinite;
+
+        }
+
+        @keyframes slidebar{
+                from{
+                    right: 0px;
+                }
+                to{
+                    right: 100%;
+                }
         }
     </style>
 </head>
